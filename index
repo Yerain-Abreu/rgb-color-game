@@ -1,0 +1,40 @@
+<!doctype html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=DM+Sans|Lacquer&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+      <div id="top-bar-0">
+        <h1> The RGB
+          <span>Color</span> Game</h1>
+      </div>
+      <div id="top-bar-1">
+        <h2> What color is this?  <span id="colorDisplay">{}</span></h2>
+      </div>
+      <div id="top-bar-2">
+        <span id="message">Go ahead, pick a Color!</span>
+        <button class="bar-button reset">Reset</button>
+        <button id="easy" class="bar-button ">Easy</button>
+        <button id="hard" class="bar-button selected">Hard</button>
+      </div>
+      <div class="container">
+        <div id="squareRow1">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div id="squareRow2">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      </div>
+      <script type="text/javascript" src="script.js">
+
+      </script>
+    </body>
+  </html>
